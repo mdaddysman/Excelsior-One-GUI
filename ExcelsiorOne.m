@@ -40,7 +40,7 @@ for m=1:4
         Pwr = str2double(r(4:end));
     else
         wl = 0; %change to read from COM
-        obj = serial('COM1');
+        %obj = serial('COM1');
         MinPwr = 0; MaxPwr = 100; Pwr = 100;
     end
     nh = uicontrol('Style','text','String',{[pn ':'],[num2str(wl) ' nm']},'Position',[5+150*(m-1) 255 140 40],'FontSize',10,'FontWeight','bold');
