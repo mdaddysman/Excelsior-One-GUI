@@ -28,6 +28,7 @@ The GUI interface allows for turning on (or standby if set to TTL digital modula
 Options are immediately set upon selecting or deselecting the check box. It is not neccessary to close the options window to enable the option changes. 
 - **Five Second Delay** Enables or disables the CDRH five second delay when turning on a laser. **WARNING! Do not disable this feature unless the laser is fully contained to prevent accidential exposure.** 
 - **Digital Modulation** Enables or disables the TTL digital modulation of the laser. TTL low turns off the laser. TTL high turns on the laser to the set output power. TTL modulation is not an option on DPSS lasers and is disabled. 
+- The window also gives the readout for the **run hours** and the **current** of each laser.
 
 ## Modifying the GUI
 
