@@ -17,7 +17,11 @@ Next to each laser is a list with the available RS-232 ports on the computer in 
 
 ### GUI Interface
 
+![GUI Interface](/Images/GUI.png)
+
 ### Options
+
+![Options Menu](/Images/Options.png)
 
 ## Modifying the GUI
 
