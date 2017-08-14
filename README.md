@@ -19,9 +19,14 @@ Next to each laser is a list with the available RS-232 ports on the computer in 
 
 ![GUI Interface](/Images/GUI.png)
 
+The GUI interface allows for turning on (or standby if set to TTL digital modulation) each of the lasers and adjusting the powers. DPSS lasers can only be adjusted to 50% of the maximum power. Also, DPSS lasers cannot be set to digital modulation. DPSS lasers are always on (no standby) when switch on. The temperature display reads from the internal thermistor in each laser to ensure the laser is not overheating. 
+
 ### Options
 
 ![Options Menu](/Images/Options.png)
+
+- **Five Second Delay** Enables or disables the CDRH five second delay when turning on a laser. **WARNING! Do not disable this feature unless the laser is fully contained to prevent accidential exposure.** 
+- **Digital Modulation** Enables or disables the TTL digital modulation of the laser. TTL low turns off the laser. TTL high turns on the laser to the set output power. TTL modulation is not an option on DPSS lasers and is disabled. 
 
 ## Modifying the GUI
 
